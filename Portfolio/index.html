@@ -14,12 +14,16 @@
     <section class="container">
       <!-- header -->
       <nav class="header">
-        <h2 class="header-name">Paulo Nkelego</h2>
+        <a href="/">
+          <h2 class="header-name">Paulo Nkelego</h2>
+        </a>
         <ul class="header-list">
           <a href="#about">
             <li class="header-link">About Me</li>
           </a>
-          <li class="header-link">Skills</li>
+          <a href="#skills">
+            <li class="header-link">Skills</li>
+          </a>
           <li class="header-link">Projects</li>
           <li class="header-link">Resume</li>
           <li class="header-link">Contact Me</li>
@@ -64,7 +68,7 @@
         <!-- about me -->
         <div class="about-section" id="about">
           <div class="about-image">
-            <img src="./assets/images/profile.png" alt="my profile" />
+            <img src="./assets/images/about.png" alt="my profile" />
           </div>
           <div class="about-tech">
             <h2 class="tech-header">What i do</h2>
@@ -92,18 +96,64 @@
               <li class="item laravel"><i class="fa-brands fa-laravel"></i></li>
             </ul>
             <div class="tech-funny">
-              <p>
+              <p class="skills">
                 👍 Develop Highly interactive Fronted / User Interface for your
                 web and mobile applications
               </p>
-              <p class="tech-funny">
+              <p class="skills">
                 👍 Progressive Web Application (PWA) in normal and SPA Stack
               </p>
-              <p class="tech-funny">
+              <p class="skills">
                 👍 Integration of third party services such as Firebase / AWS /
                 Digital Ocean
               </p>
             </div>
+          </div>
+        </div>
+
+        <!-- skills -->
+        <div class="skills-section" id="skills">
+          <div class="skills-All">
+            <h2>My Skills</h2>
+            <div class="frontend-section">
+              <h3>FrontEnd</h3>
+              <ul class="frontend">
+                <li class="html">HTML</li>
+                <li class="html">CSS</li>
+                <li class="html">Bootstrap</li>
+                <li class="html">JavaScript</li>
+                <li class="html">Tailwind</li>
+                <li class="html">Figma</li>
+                <li class="html">React.js</li>
+              </ul>
+            </div>
+
+            <div class="backend-section">
+              <h3>BackEnd</h3>
+              <ul class="backend">
+                <li class="server">PhP</li>
+                <li class="server">Node.js</li>
+                <li class="server">Express js</li>
+                <li class="server">API</li>
+              </ul>
+            </div>
+
+            <div class="other-skills-section">
+              <h3>Other Languages</h3>
+              <ul class="other">
+                <li class="language">Axios</li>
+                <li class="language">Docker</li>
+                <li class="language">Aws</li>
+                <li class="language">Cloud</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skills-Image">
+            <img
+              src="./assets/images/skills.jpg"
+              alt="skills photo"
+              class="skills-image"
+            />
           </div>
         </div>
       </div>
