@@ -3,6 +3,8 @@ body,
   margin: 0;
   padding: 0;
 }
+
+/* header section */
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,14 +29,14 @@ body,
   gap: 40px;
   list-style: none;
   color: rgb(30, 30, 30);
-  text-decoration: none;
 }
 .header .header-list .header-link {
   text-align: center;
   justify-content: center;
   cursor: pointer;
-  text-decoration: none;
 }
+
+/* contents section */
 .contents {
   padding: 80px;
   padding-top: 10%;
@@ -106,12 +108,14 @@ body,
   background-color: white;
   border: 1px solid rgb(61, 0, 136);
 }
+
+/* about section */
 .about-section {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .about-image {
@@ -129,25 +133,116 @@ body,
 .about-tech {
   width: 100%;
   height: 70vh;
-  padding-top: 170px;
+  margin-top: 170px;
 }
 .tech-header {
   font-weight: 100;
   font-size: xx-large;
 }
 .tech-para {
-  padding-top: 20px;
+  padding-top: 48px;
   font-size: medium;
   text-transform: uppercase;
 }
 .tech-icons {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  column-gap: 20px;
   font-size: xx-large;
   list-style: none;
   padding-top: 40px;
 }
 .tech-funny {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.tech-funny .skills {
+  margin-top: 14px;
+}
+
+/* skills section */
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.skills-section .frontend {
+  padding-top: 10px;
+}
+.skills-All {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+}
+.frontend-section {
+  margin-top: 22px;
+}
+.frontend {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.frontend .html {
+  background-color: rgb(212, 212, 212);
+  padding-top: 4px;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  list-style: none;
+}
+.backend-section {
+  margin-top: 22px;
+}
+.backend {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 12px;
+}
+.backend .server {
+  background-color: rgb(212, 212, 212);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  list-style: none;
+}
+.other-skills-section {
+  padding-top: 16px;
+}
+.other {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+}
+.other .language {
+  background-color: rgb(212, 212, 212);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  list-style: none;
+}
+
+.skills-Image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-Image img {
+  width: 70%;
+  height: auto;
 }
